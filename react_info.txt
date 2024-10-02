@@ -1,0 +1,38 @@
+// npm create vite@latest
+//npm = node package manager // vite = development server // latest = latest version
+
+// for making a npm = step1: npm create vite@latest
+//                  = step2: create a name for file here (cd 1]react-app)
+
+// to open the website = step1: cd 1]react-app
+//                     = step2: npm install
+//                     = step3: npm run dev
+// this opens a web browser of vite+react with a count program
+
+// to reopen the website = step1: cd 1]react-app
+//                       = step2: npm run dev
+
+//For adding tailwind css to react = step1: npm install -D tailwindcss 
+//                                 = step2: npx tailwindcss init
+//                                 = step3: inside the file of tailwind.config.js - write in the content section content: [
+//                                                                                                                         "./index.html",
+//                                                                                                                         "./src/**/*.{js,jsx,ts,tsx}",
+//                                                                                                                        ],
+//                                 = step4: then in src<<index.css file remove the whole code and paste these three lines -> @tailwind base;
+//                                                                                                                        -> @tailwind components;
+//                                                                                                                        -> @tailwind utilities;
+//                                 = step5: npm run start (start the run process)
+
+// For adding post css to react = step1: npm install -D tailwindcss postcss autoprefixer
+//                              = step2: npx tailwindcss init -p
+
+//node modules = folder that contains external libraries and packages that our project relies on 
+//public = folder that contains public assets & it is the vite logo or any of the other images 
+//public assets are not generally available via a url 
+//src- folder where max work is done by us 
+//asset folder in src it similar to public folder as it contains images and videos and the react logo  
+//asset work in bundle 
+
+//jsx = JavaScript XML
+
+//App.jsx is the main component of react which is imported to the main.js file = a sample example
